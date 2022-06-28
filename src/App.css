@@ -1,0 +1,44 @@
+.App {
+  margin: auto;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search-div {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+.search-div form input {
+  padding: 15px;
+  width: 500px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 5px 0px black;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-div form input {
+    padding: 10px;
+    width: 200px;
+
+    border: none;
+    box-shadow: 2px 2px 5px 0px black;
+  }
+
+
+}
