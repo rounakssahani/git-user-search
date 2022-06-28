@@ -45,6 +45,7 @@ const Details = () => {
 
     return (
         <div className="app">
+            <div className={styles.viewsearchhead}>Search Github Users</div>
             <div className="search-div">
                 {/*Input Search field */}
                 <form onSubmit={handleSubmit} >
@@ -69,7 +70,7 @@ const Details = () => {
                 paginationTotalRows={totalrows}
                 onChangePage={handlePageChange}
                 onChangeRowsPerPage={handlePerRowsChange}
-            /> : <div className={styles.viewsearchhead}>Search to view</div>}
+            /> : ''}
         </div>)
 }
 
